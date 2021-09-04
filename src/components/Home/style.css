@@ -1,0 +1,198 @@
+
+.home {
+ margin: 0;
+ padding: 0;
+ height: 90vh;
+ background-color: rgba(0, 0, 0, 0.5);
+
+ 
+}
+.unbackgrounded {
+  height: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ animation: 3s fadeIn;
+ animation-fill-mode: forwards;
+ opacity: 0;
+ transition: all 0.5s ease-in-out;
+}
+
+/* animation for visibility */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  20% {
+   opacity: 0.1;
+  }
+  40%{
+   opacity: 0.2;
+  }
+  60%{
+   opacity: 0.4;
+  }
+  80%{
+   opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.detailedLink {
+ text-align: center;
+}
+.my_pic {
+ object-fit: cover;
+ background-color: #000;
+ position: relative;
+ width: 360px;
+ height: 489px;
+}
+.my_pic img{
+ position: absolute;
+ width: 100%;
+ transition: all 0.5s ease-in-out;
+}
+
+.my_pic:hover img:nth-child(4) {
+ transform: translate(50px, -10px);
+ opacity: 1;
+}
+.my_pic:hover img:nth-child(3) {
+ transform: translate(30px, -7px);
+ opacity: 0.8;
+}
+.my_pic:hover img:nth-child(2) {
+ transform: translate(20px, -5px);
+ opacity: 0.6;
+}
+.my_pic:hover img:nth-child(1) {
+ transform: translate(10px, -3px);
+ opacity: 0.4;
+}
+
+/* animations */
+.anime {
+ display: flex;
+}
+
+.animeList {
+ height: 90px;
+  line-height: 90px;
+ overflow: hidden;
+}
+.animeList li {
+ list-style-type: none;
+ font-size: 27px;
+ color: #FC7D7D;
+ position: relative;
+ top: 10px;
+ animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide{ 
+ 100%{
+  top: -360px;
+ }
+}
+
+.animeList li span {
+ position: relative;
+ margin: 5px 0;
+  line-height: 80px;
+}
+.animeList li span:after {
+ content: "";
+ position: absolute;
+ left: 0;
+ top: 3px;
+ height: 100%;
+ width: 100%;
+ border-left: 3px solid #FC7D7E;
+ animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing{ 
+ 40%, 60%{
+    left: calc(100% + 30px);
+  }
+ 100%{
+  left: 0%;
+ }
+}
+/* end */
+
+
+/* button */
+.resume button {
+ border: 1px solid #949495;
+ padding: 10px 15px;
+ background-color: #333333;
+}
+.resume button a{
+ text-decoration: none;
+ color: #949495;
+}
+
+.resume button:hover {
+ border: 1px solid #000;
+ color: #000;
+ transform: scale(1.1);
+ transition: all 0.5s ease-in-out;
+}
+/* end */
+
+/* Contact Links */
+.contactLink {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ margin-bottom: 30px;
+}
+.contactLink .icon1, .icon2, .icon3 {
+ font-size: 30px;
+}
+.contactLink .icon1:hover, .icon2:hover, .icon3:hover {
+ transform: scale(1.3);
+ transition: all 0.5s ease-in-out;
+}
+.contactLink .icon1 {
+ color: red;
+}
+.contactLink .icon2 {
+ color: #000;
+}
+.contactLink .icon3 {
+ color: #0072b1;
+}
+
+/* mobile-screen size */ 
+
+@media (max-width: 480px) {
+ 
+ .home {
+  background: url('my_picture_5.jpg') no-repeat center center fixed; ;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 595px;
+ }
+
+ .unbackgrounded {
+  padding: 0;
+  padding-top: 50px;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+
+ .my_pic {
+  display: none;
+ }
+ .my_pic  img {
+  display: none;
+ }
+}

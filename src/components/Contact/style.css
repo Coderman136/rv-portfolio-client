@@ -1,0 +1,60 @@
+ .contact {
+ flex-grow: 1;
+ padding: 15px;
+ background: #fff;
+ height: 90vh;
+}
+
+.contact h1 {
+ margin-bottom: 20px;
+}
+
+.contactDetails {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+
+.form-group {
+ margin-bottom: 20px;
+}
+
+form .btn {
+ 
+ border-radius: 0%;
+ border: 1px solid #949495;
+}
+
+/* form .btn:hover {
+ transform: scale(1.2);
+ transition: all 0.5s ease-in-out;
+ background: #333333;
+ color: #fff;
+} */
+
+.contact iframe {
+ border: 0;
+ width: 100%;
+}
+
+.contact p {
+ margin-bottom: 10px;
+}
+.contact h4{
+ color: #000;
+} 
+
+
+/* Mobile-size */
+
+@media (max-width:480px) {
+ .contactDetails {
+  flex-direction: column;
+  padding: 10px;
+ }
+ .contactMe, .my_contact{
+  padding: 10px;
+ }
+
+}

@@ -1,0 +1,79 @@
+.about {
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+
+.about .me{
+ display: flex;
+ padding: 20px;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.about .me .img {
+ display: flex;
+ justify-content: center;
+}
+
+.about .me .img img {
+ width: 50%;
+ height: 50%;
+ border-radius: 50px;
+}
+
+
+.about .me .details button {
+ border: 1px solid #949495;
+ padding: 10px;
+ background-color: #333333;
+}
+.about .me .details button a{
+ text-decoration: none;
+ color: #949495;
+}
+.about .me .details button:hover {
+ transform: scale(1.1);
+ transition: all 0.5s ease-in-out;
+}
+
+.about .hobbies {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ margin-top: 50px ;
+ padding-bottom: 30px;
+
+}
+.about .hobbies .cards {
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 50px;
+}
+.about .hobbies .cards .card:hover {
+ transform: scale(1.1);
+ transition: all 0.5s ease-in-out;
+ cursor: pointer;
+}
+
+@media (max-width: 480px) {
+.about h1 {
+ text-align: center;
+}
+.about .me {
+ flex-direction: column;
+}
+.about .me .img{
+ margin-bottom: 15px;
+}
+.about .hobbies .cards{
+ flex-direction: column;
+ align-content: space-around;
+}
+.about .hobbies .cards .card {
+ margin: 7px auto;
+}
+.about .hobbies .cards .card:hover {
+ transform: none;
+}
+}

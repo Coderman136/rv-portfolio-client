@@ -33,7 +33,7 @@ function Contact() {
    subject: input.subject,
    message: input.message
   }
-  axios.post("http://localhost:7000/contact", company)
+  axios.post("https://rv-portfolio-backend.herokuapp.com/contact", company)
 
   setInput({
    personName:'',

@@ -33,6 +33,11 @@ function Skills() {
      <li> Postman </li>
     </div>
     <div>
+     <strong>Database:</strong>
+     <li>MongoDB</li>
+     <li>Firebase</li>
+    </div>
+    <div>
      <strong>Uint Test:</strong>
      <li>Jest</li>
      <li>Enzyme</li>

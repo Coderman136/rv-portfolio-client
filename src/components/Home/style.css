@@ -178,7 +178,7 @@
   -moz-background-size: cover;
   -o-background-size: cover; */
   background-size: cover;
-   max-height: 95vh;
+  height: 95vh;
  }
 
  .unbackgrounded {

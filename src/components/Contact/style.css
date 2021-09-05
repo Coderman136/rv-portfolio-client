@@ -26,12 +26,12 @@ form .btn {
  border: 1px solid #949495;
 }
 
-/* form .btn:hover {
+form .btn:hover {
  transform: scale(1.2);
  transition: all 0.5s ease-in-out;
  background: #333333;
  color: #fff;
-} */
+}
 
 .contact iframe {
  border: 0;
@@ -53,6 +53,10 @@ form .btn {
   flex-direction: column;
   padding: 10px;
  }
+
+ .contact h1 {
+ text-align: center;
+}
  .contactMe, .my_contact{
   padding: 10px;
  }

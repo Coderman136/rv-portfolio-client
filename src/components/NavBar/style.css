@@ -100,3 +100,9 @@
     background: transparent;
   }
 }
+
+@media (max-width: 480px) {
+  .navbar {
+  height: 5vh;
+}
+}

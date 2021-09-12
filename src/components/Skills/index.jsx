@@ -10,10 +10,10 @@ function Skills() {
    <div className="content">
     <div>
      <strong>Languages:</strong>
+     <li>Javascript <FaJs/> </li>
+     <li>Node.js <FaNodeJs/> </li>
      <li> HTML5 <FaHtml5 /> </li>
      <li> CSS3 <FaCss3   /> </li>
-     <li>Node.js <FaNodeJs/> </li>
-     <li>Javascript <FaJs/> </li>
     </div>
     <div>
      <strong>Libraries:</strong>
@@ -36,6 +36,14 @@ function Skills() {
      <strong>Database:</strong>
      <li>MongoDB</li>
      <li>Firebase</li>
+    </div>
+    <div>
+     <strong>Software:</strong>
+     <li>Matlab</li>
+     <li>Modelism</li>
+     <li>Intel Quartus Prime</li>
+     <li>Logism</li>
+     <li> MARS(MIPS Assembly and Instruciton Set)</li>
     </div>
     <div>
      <strong>Uint Test:</strong>

@@ -41,7 +41,60 @@ function Projects() {
      </Card.Body>
      </Card>
 
+     
+
    </div>
+
+   <div className="project">
+     <Card className ="card">
+     <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/react_search.png`}   />
+     <Card.Body>
+      <Card.Title> React Search App </Card.Title>
+      <Card.Text className="text">
+       <FaReact /> <FaJs/> <FaHtml5 /> <FaCss3 /> NPM <FaGit/>
+      </Card.Text>
+      <button variant="primary"><a href="https://foodsearchapp123.herokuapp.com/" target="_blank" > Check it Out</a></button>
+     </Card.Body>
+     </Card>
+
+     <Card  className ="card">
+     <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/currency_exchange.png`}  />
+     <Card.Body>
+      <Card.Title> Currency Exchange </Card.Title>
+      <Card.Text className="text">
+        <FaJs/> <FaHtml5 /> <FaCss3 />
+      </Card.Text>
+      <button variant="primary"><a href="https://exchange-rate--app.herokuapp.com/" target="_blank" > Check it Out</a></button>
+     </Card.Body>
+     </Card>
+
+     <Card  className ="card">
+     <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/calculator.png`}  />
+     <Card.Body>
+      <Card.Title> Calculator </Card.Title>
+      <Card.Text className="text">
+        <FaJs/>  <FaHtml5/> <FaCss3 />
+      </Card.Text>
+      <button variant="primary"><a href="https://simple----calculator.herokuapp.com/" target="_blank" > Check it Out</a></button>
+     </Card.Body>
+     </Card>
+
+   </div>
+
+    <div className="project">
+     <Card className ="card">
+     <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/form_validation.png`}   />
+     <Card.Body>
+      <Card.Title> Form Validation </Card.Title>
+      <Card.Text className="text">
+        <FaJs/> <FaHtml5 /> <FaCss3 />
+      </Card.Text>
+      <button variant="primary"><a href="https://form--validation.herokuapp.com/" target="_blank" > Check it Out</a></button>
+     </Card.Body>
+     </Card>
+
+     </div>
+
   </div>
  )
 }

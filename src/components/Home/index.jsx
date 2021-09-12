@@ -18,7 +18,7 @@ function Home() {
       <li> <span> Full-Stack Developer </span> </li>
       <li> <span> UI/UX Designer       </span> </li>
       <li> <span> YouTuber             </span> </li>
-      <li> <span> Freelancer           </span> </li>
+      <li> <span> React Developer      </span> </li>
      </ul>
      </div>
 

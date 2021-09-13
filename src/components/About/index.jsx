@@ -25,7 +25,7 @@ function About() {
          <p> Languages : English, Hindi, Telugu </p>
          <p> Location : Mississauga, Ontario, Canada </p>
          <p> Looking for Role : React Developer, Full-Stack Developer, MERN Stack Developer, JavaScript Developer </p>
-         <button>  <a href=""> Download CV </a>  </button>
+         <button>  <a href="https://drive.google.com/file/d/1TCCAhSC4UGOm_1zJZRidnhjxZPZcNSw4/view?usp=sharing" target="_blank"> Download CV </a>  </button>
         </div>
    </div>
 

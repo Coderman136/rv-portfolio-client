@@ -18,7 +18,7 @@ function About() {
     
         <div className="details">
          <h2> I am RAGHUVEER </h2>
-         <p>I am a self-taught, as well as bootcamp graduate, full-stack developer, eager to keep on learning. I am passionate about creating innovative solutions aiming for smooth user experiences while keeping a high functionality and paying attention to details. I love organization and structure and therefore put a high emphasis on clean, elegant and efficient code with a mobile-first approach to ensure responsive design. </p>
+         <p>I am a  React/Full-Stack developer eager to keep on learning. I have 2 years experience of coding/designing websites. I am passionate about creating innovative solutions aiming for smooth user experiences while keeping a high functionality and paying attention to details. I love organization and structure and therefore put a high emphasis on clean, elegant and efficient code with a mobile-first approach to ensure responsive design. </p>
          <p> Full Name : Raghuveer Rao Thoka</p>
          <p> Age : 27 </p>
          <p> Nationaity: Indian </p>

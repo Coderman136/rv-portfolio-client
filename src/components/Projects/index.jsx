@@ -75,7 +75,7 @@ function Projects() {
       <Card.Text className="text">
         <FaJs/>  <FaHtml5/> <FaCss3 />
       </Card.Text>
-      <button variant="primary"><a href="https://simple----calculator.herokuapp.com/" target="_blank" > Check it Out</a></button>
+      <button variant="primary"><a href="https://arithmetic--calculator.herokuapp.com/" target="_blank" > Check it Out</a></button>
      </Card.Body>
      </Card>
 

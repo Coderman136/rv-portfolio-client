@@ -51,7 +51,6 @@ function Skills() {
      <li>Jest</li>
      <li>Enzyme</li>
      <li>React-test</li>
-     <li>Supper-test</li>
     </div>
    </div>
   </div>

@@ -25,7 +25,7 @@ function About() {
          <p> Languages : English, Hindi, Telugu </p>
          <p> Location : Mississauga, Ontario, Canada </p>
          <p> Looking for Role : React Developer, Full-Stack Developer, MERN Stack Developer, JavaScript Developer </p>
-         <button>  <a href="https://drive.google.com/file/d/1TCCAhSC4UGOm_1zJZRidnhjxZPZcNSw4/view?usp=sharing" target="_blank"> Download CV </a>  </button>
+         <button>  <a href="https://drive.google.com/file/d/1lVY2chS0DHcvboeP80_BreLJ1akESC_U/view?usp=sharing" target="_blank"> Download CV </a>  </button>
         </div>
    </div>
 
@@ -38,8 +38,7 @@ function About() {
      <Card.Body>
       <Card.Title>Travelling</Card.Title>
       <Card.Text>
-       Some quick example text to build on the card title and make up the bulk of
-       the card's content.
+       Explored India to get  to know myself, now exploring myself in Canada. 
       </Card.Text>
       {/* <Button variant="primary">Go somewhere</Button> */}
      </Card.Body>
@@ -50,8 +49,7 @@ function About() {
      <Card.Body>
       <Card.Title> Cultural Exploration </Card.Title>
       <Card.Text>
-       Some quick example text to build on the card title and make up the bulk of
-       the card's content.
+       Interested in volatile culture and the way of knowing culture through on-stage drama.
       </Card.Text>
       {/* <Button variant="primary">Go somewhere</Button> */}
      </Card.Body>
@@ -62,8 +60,7 @@ function About() {
      <Card.Body>
       <Card.Title>Soccer</Card.Title>
       <Card.Text>
-       Some quick example text to build on the card title and make up the bulk of
-       the card's content.
+       Favourite sport to feel alive. Makes me feel more competitive everytime I play!
       </Card.Text>
       {/* <Button variant="primary">Go somewhere</Button> */}
      </Card.Body>
@@ -74,8 +71,7 @@ function About() {
      <Card.Body>
       <Card.Title>Tech Knowledge</Card.Title>
       <Card.Text>
-       Some quick example text to build on the card title and make up the bulk of
-       the card's content.
+       Interested in Tech-talks, investment and having a futuristic vision.
       </Card.Text>
       {/* <Button variant="primary">Go somewhere</Button> */}
      </Card.Body>

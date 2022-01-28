@@ -23,8 +23,8 @@ function About() {
          <p> Age : 27 </p>
          <p> Nationaity: Indian </p>
          <p> Languages : English, Hindi, Telugu </p>
-         <p> Location : Mississauga, Ontario, Canada </p>
-         <p> Looking for Role : React Developer, Full-Stack Developer, MERN Stack Developer, JavaScript Developer </p>
+         <p> Location : Hamilton, Ontario, Canada </p>
+         <p> Looking for Role : React Developer, MERN Stack Developer, JavaScript Developer </p>
          <button>  <a href="https://drive.google.com/file/d/1iNw4bka93v2fBNjHE_NmT0Wg1QBXJ4Hp/view?usp=sharing" target="_blank"> Download CV </a>  </button>
         </div>
    </div>

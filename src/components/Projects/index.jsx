@@ -58,17 +58,6 @@ function Projects() {
      </Card>
 
      <Card  className ="card">
-     <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/currency_exchange.png`}  />
-     <Card.Body>
-      <Card.Title> Currency Exchange </Card.Title>
-      <Card.Text className="text">
-        <FaJs/> <FaHtml5 /> <FaCss3 />
-      </Card.Text>
-      <button variant="primary"><a href="https://exchange-rate--app.herokuapp.com/" target="_blank" > Check it Out</a></button>
-     </Card.Body>
-     </Card>
-
-     <Card  className ="card">
      <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/student_directory.png`}  />
      <Card.Body>
       <Card.Title> Student Directory </Card.Title>
@@ -78,6 +67,9 @@ function Projects() {
       <button variant="primary"><a href="https://pensive-lewin-2d4179.netlify.app/" target="_blank" > Check it Out</a></button>
      </Card.Body>
      </Card>
+
+     
+
 
      <Card  className ="card">
      <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/calculator.png`}  />
@@ -93,6 +85,18 @@ function Projects() {
    </div>
 
     <div className="project">
+
+      <Card  className ="card">
+     <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/currency_exchange.png`}  />
+     <Card.Body>
+      <Card.Title> Currency Exchange </Card.Title>
+      <Card.Text className="text">
+        <FaJs/> <FaHtml5 /> <FaCss3 />
+      </Card.Text>
+      <button variant="primary"><a href="https://exchange-rate--app.herokuapp.com/" target="_blank" > Check it Out</a></button>
+     </Card.Body>
+     </Card>
+     
      <Card className ="card">
      <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/form_validation.png`}   />
      <Card.Body>

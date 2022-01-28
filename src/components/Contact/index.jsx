@@ -72,20 +72,20 @@ function Contact() {
    </div>
 
    <div className="my_contact">
-
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369973.65558336105!2d-79.77453057823067!3d43.576984339610874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b469fe76b05b7%3A0x3146cbed75966db!2sMississauga%2C%20ON!5e0!3m2!1sen!2sca!4v1630732131852!5m2!1sen!2sca" 
-   frameBorder=""
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d371912.74333578243!2d-80.21333211413214!3d43.26046849791838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c986c27de778f%3A0x2b6aee56d8df0e21!2sHamilton%2C%20ON!5e0!3m2!1sen!2sca!4v1643381811635!5m2!1sen!2sca"
+     frameBorder=""
     aria-hidden="false"
     tabIndex ="0"></iframe>
 
+
    <h4>Phone</h4>
-   <p>+1-438-680-6810</p>
+   <p>+1-437-971-9635</p>
 
    <h4>Email</h4>
    <p>thoka.rao@mail.mcgill.ca</p> 
 
    <h4>Address</h4>
-   <p> Mississauga, Ontario, Canada </p>
+   <p> Hamilton, Ontario, Canada </p>
 
    </div>
 

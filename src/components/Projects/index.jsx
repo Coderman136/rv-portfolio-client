@@ -69,6 +69,17 @@ function Projects() {
      </Card>
 
      <Card  className ="card">
+     <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/student_directory.png`}  />
+     <Card.Body>
+      <Card.Title> Student Directory </Card.Title>
+      <Card.Text className="text">
+        <FaJs/> <FaHtml5 /> <FaCss3 />
+      </Card.Text>
+      <button variant="primary"><a href="https://pensive-lewin-2d4179.netlify.app/" target="_blank" > Check it Out</a></button>
+     </Card.Body>
+     </Card>
+
+     <Card  className ="card">
      <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/calculator.png`}  />
      <Card.Body>
       <Card.Title> Calculator </Card.Title>

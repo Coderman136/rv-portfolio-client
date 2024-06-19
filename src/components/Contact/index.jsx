@@ -72,7 +72,7 @@ function Contact() {
    </div>
 
    <div className="my_contact">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d371912.74333578243!2d-80.21333211413214!3d43.26046849791838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c986c27de778f%3A0x2b6aee56d8df0e21!2sHamilton%2C%20ON!5e0!3m2!1sen!2sca!4v1643381811635!5m2!1sen!2sca"
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.90977249618!2d-79.54286599561185!3d43.7183709581209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1718762826331!5m2!1sen!2sca"
      frameBorder=""
     aria-hidden="false"
     tabIndex ="0"></iframe>
@@ -85,7 +85,7 @@ function Contact() {
    <p>thoka.rao@mail.mcgill.ca</p> 
 
    <h4>Address</h4>
-   <p> Hamilton, Ontario, Canada </p>
+   <p> Toronto, Ontario, Canada </p>
 
    </div>
 

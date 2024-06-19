@@ -17,15 +17,13 @@ function About() {
     </div>
     
         <div className="details">
-         <h2> I am RAGHUVEER </h2>
-         <p>I am a  React/Full-Stack developer who is eager to keep on learning. I have 2 years experience of coding/designing websites using React. I am passionate about creating innovative solutions aiming for smooth user experiences while keeping a high functionality and paying attention to details. I love organization and structure and therefore put a high emphasis on clean, elegant and efficient code with a mobile approach to ensure responsive design. </p>
+         <h2> RAGHUVEER </h2>
+         <p>Results-oriented Senior React and Full Stack Developer with 7+ years of experience in developing and optimizing web applications. Proven expertise in React.js, JavaScript, and back-end technologies including Node.js and Express.js. Experienced in AWS deployment and developing AWS applications. Strong track record of enhancing user engagement, optimizing business processes, and driving revenue growth. Committed to delivering innovative solutions that exceed client expectations and drive company success.</p>
          <p> Full Name : Raghuveer Rao Thoka</p>
-         <p> Age : 27 </p>
-         <p> Nationaity: Indian </p>
-         <p> Languages : English, Hindi, Telugu </p>
-         <p> Location : Hamilton, Ontario, Canada </p>
-         <p> Looking for Role : React Developer, MERN Stack Developer, JavaScript Developer </p>
-         <button>  <a href="https://drive.google.com/file/d/1iNw4bka93v2fBNjHE_NmT0Wg1QBXJ4Hp/view?usp=sharing" target="_blank"> Download CV </a>  </button>
+         <p> Age : 30 </p>
+         <p> Location : Toronto, Ontario, Canada </p>
+         <p> Looking for Role : Senior React Developer, Senior Full-Stack Developer </p>
+         <button>  <a href="https://drive.google.com/file/d/1xDs92a9MHsFiAiC4pO30AfTctSWV4KrC/view?usp=sharing" target="_blank"> Download CV </a>  </button>
         </div>
    </div>
 
@@ -38,7 +36,7 @@ function About() {
      <Card.Body>
       <Card.Title>Travelling</Card.Title>
       <Card.Text>
-       Explored India to get  to know myself, now exploring myself in Canada. 
+       Love for travelling and exploring scenic places. 
       </Card.Text>
       {/* <Button variant="primary">Go somewhere</Button> */}
      </Card.Body>
@@ -47,9 +45,9 @@ function About() {
      <Card style={{ width: '18rem' }} className ="card">
      <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/culture.jpg`}  />
      <Card.Body>
-      <Card.Title> Cultural Exploration </Card.Title>
+      <Card.Title> Art Enthusiast and Museum Lover </Card.Title>
       <Card.Text>
-       Interested in volatile culture and the way of knowing culture through on-stage drama.
+      I have a deep passion for art and museums. I find inspiration and joy in the world of art.
       </Card.Text>
       {/* <Button variant="primary">Go somewhere</Button> */}
      </Card.Body>

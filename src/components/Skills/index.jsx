@@ -37,6 +37,9 @@ function Skills() {
      <strong>Database:</strong>
      <li>MongoDB</li>
      <li>Firebase</li>
+     <li>AWS</li>
+     <li>Netsuite</li>
+     <li>Salesforce</li>
     </div>
     <div>
      <strong>Software:</strong>

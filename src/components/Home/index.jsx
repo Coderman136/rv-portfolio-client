@@ -31,7 +31,7 @@ function Home() {
       <a href="https://github.com/Coderman136" target="github">
        <FaGithub className="icon2"/>
        </a>
-       <a href="https://linkedin.com/in/raghuveer-rao-thoka-2987a016b" target="linkedIn">
+       <a href="https://www.linkedin.com/in/raghuveer-rao-thoka-a1a864285/" target="linkedIn">
         <FaLinkedin className="icon3"/>
         </a>
     </div>

@@ -19,10 +19,7 @@ function About() {
         <div className="details">
          <h2> RAGHUVEER </h2>
          <p>Results-oriented Senior React and Full Stack Developer with 7+ years of experience in developing and optimizing web applications. Proven expertise in React.js, JavaScript, and back-end technologies including Node.js and Express.js. Experienced in AWS deployment and developing AWS applications. Strong track record of enhancing user engagement, optimizing business processes, and driving revenue growth. Committed to delivering innovative solutions that exceed client expectations and drive company success.</p>
-         <p> Full Name : Raghuveer Rao Thoka</p>
-         <p> Age : 30 </p>
          <p> Location : Toronto, Ontario, Canada </p>
-         <p> Looking for Role : Senior React Developer, Senior Full-Stack Developer </p>
          <button>  <a href="https://drive.google.com/file/d/1xDs92a9MHsFiAiC4pO30AfTctSWV4KrC/view?usp=sharing" target="_blank"> Download CV </a>  </button>
         </div>
    </div>

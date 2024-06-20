@@ -37,7 +37,7 @@ function Home() {
     </div>
 
     <div className="resume">
-     <button><a href = "https://drive.google.com/file/d/1iNw4bka93v2fBNjHE_NmT0Wg1QBXJ4Hp/view?usp=sharing" target="_blank"> Resume </a></button>
+     <button><a href = "https://drive.google.com/file/d/1xDs92a9MHsFiAiC4pO30AfTctSWV4KrC/view?usp=sharing" target="_blank"> Resume </a></button>
     </div>
     <div className="links">
 

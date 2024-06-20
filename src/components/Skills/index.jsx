@@ -18,6 +18,7 @@ function Skills() {
     <div>
      <strong>Libraries:</strong>
      <li>React-js <FaReact /></li>
+     <li>Next-js <FaReact /></li>
      <li>Express.js</li>
      <li>Redux  </li>
      <li>Bootstrap <FaBootstrap /> </li>

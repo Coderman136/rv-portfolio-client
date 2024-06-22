@@ -48,49 +48,61 @@ const NavBar = () => {
           />
 
           <ul style={{ left: open ? "0" : "-100vw" }}>
+            {/* <li>
+              <img src={`${process.env.PUBLIC_URL}/logo.jpg`}
+              alt="loading" 
+              style={{
+                // width: '100px', // adjust width
+                // height: 'auto', // maintain aspect ratio
+                // borderRadius: '10px', // add rounded corners
+                // boxShadow: '0 4px 8px rgba(0,0,0,0.1)', // add shadow
+                // marginBottom: '10px' // space below image
+              }}
+              />
+            </li> */}
             <li>
               <Link
                 to="/"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/" && "#fff" }}
+                style={{ color: location.pathname === "/" && "#E74C3C" }}
               >
-                Home
+                HOME
               </Link>
             </li>
             <li>
               <Link
                 to="/about"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/about" && "#fff" }}
+                style={{ color: location.pathname === "/about" && "#E74C3C" }}
               >
-                About
+                ABOUT
               </Link>
             </li>
             <li>
               <Link
                 to="/skills"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/skills" && "#fff" }}
+                style={{ color: location.pathname === "/skills" && "#E74C3C" }}
               >
-                Skills
+                SKILL
               </Link>
             </li>
             <li>
               <Link
                 to="/projects"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/projects" && "#fff" }}
+                style={{ color: location.pathname === "/projects" && "#E74C3C" }}
               >
-                Projects
+                PROJECT
               </Link>
             </li>
             <li>
               <Link
                 to="/contact"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/contact" && "#fff" }}
+                style={{ color: location.pathname === "/contact" && "#E74C3C" }}
               >
-                Contact
+                CONTACT
               </Link>
             </li>
           </ul>

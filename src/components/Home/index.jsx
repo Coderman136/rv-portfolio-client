@@ -11,7 +11,8 @@ function Home() {
     <div className="detailedLink">
     <div className="headline">
      <h1>Hi,</h1>
-    <h1>I am Raghuveer</h1>
+    <h1>I am Chris</h1>
+    {/* <h1>Welcome to my world</h1> */}
 
     <div className="anime">
      <ul className="animeList">
@@ -22,6 +23,10 @@ function Home() {
      </ul>
      </div>
 
+    </div>
+
+    <div className="resume">
+     <button><a href = "https://drive.google.com/file/d/1xDs92a9MHsFiAiC4pO30AfTctSWV4KrC/view?usp=sharing" target="_blank"> RESUME </a></button>
     </div>
 
     <div className="contactLink">
@@ -36,14 +41,12 @@ function Home() {
         </a>
     </div>
 
-    <div className="resume">
-     <button><a href = "https://drive.google.com/file/d/1xDs92a9MHsFiAiC4pO30AfTctSWV4KrC/view?usp=sharing" target="_blank"> Resume </a></button>
-    </div>
-    <div className="links">
+    
+    {/* <div className="links">
 
-    </div>
+    </div> */}
    </div>
-   <div className="my_pic">
+   {/* <div className="my_pic">
     <img src={`${process.env.PUBLIC_URL}/my_picture_5.jpg`}
     alt="loading" 
     />
@@ -56,7 +59,7 @@ function Home() {
     <img src={`${process.env.PUBLIC_URL}/my_picture_5.jpg`}
     alt="loading" 
     />
-   </div>
+   </div> */}
 
    </div>
    

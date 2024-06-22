@@ -3,19 +3,38 @@
  margin: 0;
  padding: 0;
  height: 90vh;
- background-color: rgba(0, 0, 0, 0.5);
-
- 
+ background-image: url("../Home/background_home.jpg");
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ /* background-color: rgba(0, 0, 0, 0.5); */
 }
+
 .unbackgrounded {
   height: 100%;
  display: flex;
- justify-content: space-evenly;
- align-items: center;
+ flex-direction: row;
+ /* justify-content: space-evenly; */
+ /* align-items: center; */
  animation: 3s fadeIn;
  animation-fill-mode: forwards;
  opacity: 0;
  transition: all 0.5s ease-in-out;
+}
+
+.unbackgrounded h1{
+  color:#000;
+  font-size: bold;
+  color: #fff;
+  font-family: "Satisfy", cursive;
+ font-weight: 800;
+  font-style: normal;
+}
+
+.unbackgrounded .resume {
+  width: 100%;
+  margin-right: 30px;
+  flex: 1;
 }
 
 /* animation for visibility */
@@ -42,6 +61,12 @@
 
 .detailedLink {
  text-align: center;
+ display: flex;
+ flex-direction: row;
+ /* align-items: center; */
+ justify-content: space-between;
+  width: 100%;
+  margin-top: 60px;
 }
 .my_pic {
  object-fit: cover;
@@ -86,7 +111,8 @@
 .animeList li {
  list-style-type: none;
  font-size: 27px;
- color: #FC7D7D;
+ /* color: #FC7D7D; */
+ color: #fff;
  position: relative;
  top: 10px;
  animation: slide 12s steps(4) infinite;
@@ -110,7 +136,7 @@
  top: 3px;
  height: 100%;
  width: 100%;
- border-left: 3px solid #FC7D7E;
+ border-left: 3px solid #fff;
  animation: typing 3s steps(10) infinite;
 }
 
@@ -127,13 +153,17 @@
 
 /* button */
 .resume button {
- border: 1px solid #949495;
+ border: 5px solid #fff;
  padding: 10px 15px;
- background-color: #333333;
+ background-color: transparent;
+ border-radius: 25%;
 }
 .resume button a{
  text-decoration: none;
- color: #949495;
+ color: #fff;
+ font-family: "Satisfy", cursive;
+ font-weight: 800;
+  font-style: normal;
 }
 
 .resume button:hover {
@@ -150,6 +180,7 @@
  justify-content: space-evenly;
  align-items: center;
  margin-bottom: 30px;
+ flex:2;
 }
 .contactLink .icon1, .icon2, .icon3 {
  font-size: 30px;
@@ -173,7 +204,7 @@
 @media (max-width: 480px) {
  
  .home {
-  background: url('my_picture_5.jpg') no-repeat center center fixed; ;
+  background: url("../Home/background_home.jpg") no-repeat center center fixed; ;
     /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; */
@@ -184,8 +215,19 @@
  .unbackgrounded {
   padding: 0;
   padding-top: 50px;
-  flex-direction: column;
-  justify-content: center;
+  /* display: block; */
+  /* flex-direction: column;
+  justify-content: center; */
+ }
+
+ .unbackgrounded .detailedLink {
+  display: block;
+  margin-top: 0;
+ }
+
+ .unbackgrounded .resume {
+  margin-top: 250px;
+  margin-bottom: 30px;
  }
 
  h1{

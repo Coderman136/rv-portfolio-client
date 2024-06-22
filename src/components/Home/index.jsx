@@ -18,7 +18,7 @@ function Home() {
      <ul className="animeList">
       <li> <span> Full-Stack Developer </span> </li>
       <li> <span> UI/UX Designer       </span> </li>
-      <li> <span> YouTuber             </span> </li>
+      <li> <span> Cloud Developer             </span> </li>
       <li> <span> React Developer      </span> </li>
      </ul>
      </div>
@@ -30,9 +30,9 @@ function Home() {
     </div>
 
     <div className="contactLink">
-      <a href="https://www.youtube.com/channel/UCnPQ4NDqerT4Ovdw5Ak7dmg" target="youtube" >
+      {/* <a href="https://www.youtube.com/channel/UCnPQ4NDqerT4Ovdw5Ak7dmg" target="youtube" >
       <FaYoutube className="icon1"/>
-      </a>
+      </a> */}
       <a href="https://github.com/Coderman136" target="github">
        <FaGithub className="icon2"/>
        </a>

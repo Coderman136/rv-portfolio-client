@@ -113,6 +113,8 @@
  font-size: 27px;
  /* color: #FC7D7D; */
  color: #fff;
+ font-family: "Satisfy", cursive;
+ font-weight: 800;
  position: relative;
  top: 10px;
  animation: slide 12s steps(4) infinite;
@@ -223,6 +225,11 @@
  .unbackgrounded .detailedLink {
   display: block;
   margin-top: 0;
+ }
+
+ .unbackgrounded .headline .anime{
+  /* margin-left: 20px; */
+  justify-content: center;
  }
 
  .unbackgrounded .resume {

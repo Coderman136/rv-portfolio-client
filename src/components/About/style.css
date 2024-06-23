@@ -3,7 +3,7 @@ display: flex;
 flex-direction: column;
 padding: 10px;
 background-color: #ecebe8;
-height: 100vh;
+/* height: 100vh; */
 }
 
 .about h1 {
@@ -32,7 +32,17 @@ height: 100vh;
  border-radius: 50px;
 }
 
+.about .me .details h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #000;
+}
+
 .about .me .details p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: #000;
 }
 
@@ -95,4 +105,37 @@ height: 100vh;
 .about .hobbies .cards .card:hover {
  transform: none;
 }
+.skills {
+    padding: 0 50px;
 }
+}
+
+
+.skills {
+    padding: 0 100px;
+}
+.skills p{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #000;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .skill-bar-fill {
+    height: 20px;
+    background-color: #886f61;
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  

@@ -9,7 +9,7 @@ function About() {
            
           <div className="about">
 
-   <h1> ABOUT ME  </h1>
+   {/* <h1> ABOUT ME  </h1> */}
    <div className="me">
     <div className="img">
      <img src= {`${process.env.PUBLIC_URL}/about_me_3.jpg`}
@@ -17,12 +17,46 @@ function About() {
     </div>
     
         <div className="details">
-         {/* <h2> RAGHUVEER </h2> */}
+         <h2> ABOUT ME </h2>
          <p>Results-oriented Senior React and Full Stack Developer with 7+ years of experience in developing and optimizing web applications. Proven expertise in React.js, JavaScript, and back-end technologies including Node.js and Express.js. Experienced in AWS deployment and developing AWS applications. Strong track record of enhancing user engagement, optimizing business processes, and driving revenue growth. Committed to delivering innovative solutions that exceed client expectations and drive company success.</p>
          <p> Location : Toronto, Ontario, Canada </p>
          <button>  <a href="https://drive.google.com/file/d/1xDs92a9MHsFiAiC4pO30AfTctSWV4KrC/view?usp=sharing" target="_blank"> Download CV </a>  </button>
         </div>
    </div>
+
+   <div className="skills">
+          <h2>Skills</h2>
+          <div className="skill">
+            <p>ReactJS: 8/10</p>
+            <div className="skill-bar">
+              <div className="skill-bar-fill" style={{ width: '80%' }}>8/10</div>
+            </div>
+          </div>
+          <div className="skill">
+            <p>Javascript: 9/10</p>
+            <div className="skill-bar">
+              <div className="skill-bar-fill" style={{ width: '90%' }}>9/10</div>
+            </div>
+          </div>
+          <div className="skill">
+            <p>AWS: 7.5/10</p>
+            <div className="skill-bar">
+              <div className="skill-bar-fill" style={{ width: '75%' }}>7.5/10</div>
+            </div>
+          </div>
+          <div className="skill">
+            <p>MongoDB: 7/10</p>
+            <div className="skill-bar">
+              <div className="skill-bar-fill" style={{ width: '70%' }}>7/10</div>
+            </div>
+          </div>
+          <div className="skill">
+            <p>NodeJS: 7.5/10</p>
+            <div className="skill-bar">
+              <div className="skill-bar-fill" style={{ width: '75%' }}>7.5/10</div>
+            </div>
+          </div>
+        </div>
 
    <div className=" hobbies">
     <h2> Hobbies </h2>

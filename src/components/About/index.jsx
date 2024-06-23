@@ -27,15 +27,15 @@ function About() {
    <div className="skills">
           <h2>Skills</h2>
           <div className="skill">
-            <p>ReactJS: 8/10</p>
-            <div className="skill-bar">
-              <div className="skill-bar-fill" style={{ width: '80%' }}>8/10</div>
-            </div>
-          </div>
-          <div className="skill">
             <p>Javascript: 9/10</p>
             <div className="skill-bar">
               <div className="skill-bar-fill" style={{ width: '90%' }}>9/10</div>
+            </div>
+          </div>
+          <div className="skill">
+            <p>ReactJS: 9/10</p>
+            <div className="skill-bar">
+              <div className="skill-bar-fill" style={{ width: '80%' }}>8/10</div>
             </div>
           </div>
           <div className="skill">

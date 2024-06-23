@@ -78,7 +78,7 @@ function Projects() {
       <Card.Text className="text">
         <FaJs/>  <FaHtml5/> <FaCss3 />
       </Card.Text>
-      <button variant="primary"><a href="https://arithmetic--calculator.herokuapp.com/" target="_blank" > Check it Out</a></button>
+      <button variant="primary"><a href="https://rvcalculator.netlify.app/" target="_blank" > Check it Out</a></button>
      </Card.Body>
      </Card>
 
@@ -93,7 +93,7 @@ function Projects() {
       <Card.Text className="text">
         <FaJs/> <FaHtml5 /> <FaCss3 />
       </Card.Text>
-      <button variant="primary"><a href="https://exchange-rate--app.herokuapp.com/" target="_blank" > Check it Out</a></button>
+      <button variant="primary"><a href="https://currencyexchangerv.netlify.app/" target="_blank" > Check it Out</a></button>
      </Card.Body>
      </Card>
 
@@ -104,7 +104,7 @@ function Projects() {
       <Card.Text className="text">
         <FaJs/> <FaHtml5 /> <FaCss3 />
       </Card.Text>
-      <button variant="primary"><a href="https://form--validation.herokuapp.com/" target="_blank" > Check it Out</a></button>
+      <button variant="primary"><a href="https://rvformvalidation.netlify.app" target="_blank" > Check it Out</a></button>
      </Card.Body>
      </Card>
 

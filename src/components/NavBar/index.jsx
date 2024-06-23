@@ -29,18 +29,24 @@ const NavBar = () => {
     return () => window.removeEventListener("resize", trackScreenWidth);
   }, []);
 
+  const getLinkStyle = (path) => {  
+    return { color: location.pathname === path && "#450003", fontSize: "32px"};
+  };
+
+  
+
   return (
     <nav className="navbar">
       <div className="nav-wrapper">
 
         <div className="list-wrapper">
-          <FaBars className="menu"
+          <FaBars className="menu bar"
             style={{ opacity: !open ? 1 : 0 }}
             onClick={() => {
               setOpen(!open);
             }}
           />
-          <FaTimes className="menu"
+          <FaTimes className="menu close"
             style={{ opacity: open ? 1 : 0 }}
             onClick={() => {
               setOpen(!open);
@@ -64,7 +70,8 @@ const NavBar = () => {
               <Link
                 to="/"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/" && "#450003" }}
+                // style={{ color: location.pathname === "/" && "#450003" }}
+                style={getLinkStyle("/")}
               >
                 HOME
               </Link>
@@ -73,7 +80,8 @@ const NavBar = () => {
               <Link
                 to="/about"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/about" && "#450003" }}
+                // style={{ color: location.pathname === "/about" && "#450003" }}
+                style={getLinkStyle("/about")}
               >
                 ABOUT
               </Link>
@@ -82,7 +90,8 @@ const NavBar = () => {
               <Link
                 to="/skills"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/skills" && "#450003" }}
+                // style={{ color: location.pathname === "/skills" && "#450003" }}
+                style={getLinkStyle("/skills")}
               >
                 SKILL
               </Link>
@@ -91,7 +100,8 @@ const NavBar = () => {
               <Link
                 to="/projects"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/projects" && "#450003" }}
+                // style={{ color: location.pathname === "/projects" && "#450003" }}
+                style={getLinkStyle("/projects")}
               >
                 PROJECT
               </Link>
@@ -100,7 +110,8 @@ const NavBar = () => {
               <Link
                 to="/contact"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/contact" && "#450003" }}
+                // style={{ color: location.pathname === "/contact" && "#450003" }}
+                style={getLinkStyle("/contact")}
               >
                 CONTACT
               </Link>

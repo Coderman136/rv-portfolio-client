@@ -47,7 +47,7 @@ function Contact() {
  }
  return (
   <div className="contact">
-   <h1> {`<`} CONTACT ME {`/>`}</h1>
+   <h1>GET IN TOUCH</h1>
 
    <div className="contactDetails">
 

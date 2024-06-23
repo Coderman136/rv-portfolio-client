@@ -6,9 +6,9 @@ import './style.css'
 function Projects() {
  return (
   <div className="projects">
-   <h1>{`<`} PROJECTS {`/>`}</h1>
+   <h1>PROJECTS</h1>
    <div className="project">
-     <Card className ="card">
+     {/* <Card className ="card">
      <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/todo.png`}   />
      <Card.Body>
       <Card.Title> To-Do List </Card.Title>
@@ -17,9 +17,9 @@ function Projects() {
       </Card.Text>
       <button variant="primary"><a href="https://todolist1234567.herokuapp.com/" target="_blank" > Check it Out</a></button>
      </Card.Body>
-     </Card>
+     </Card> */}
 
-     <Card  className ="card">
+     {/* <Card  className ="card">
      <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/commerce.png`}  />
      <Card.Body>
       <Card.Title> E-Commerce Tech </Card.Title>
@@ -28,7 +28,7 @@ function Projects() {
       </Card.Text>
       <button variant="primary"><a href="https://rvecommercewebtech.herokuapp.com/" target="_blank" > Check it Out</a></button>
      </Card.Body>
-     </Card>
+     </Card> */}
 
      <Card  className ="card">
      <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/chatbot.png`}  />
@@ -43,10 +43,10 @@ function Projects() {
 
      
 
-   </div>
+   {/* </div>
 
-   <div className="project">
-     <Card className ="card">
+   <div className="project"> */}
+     {/* <Card className ="card">
      <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/react_search.png`}   />
      <Card.Body>
       <Card.Title> React Search App </Card.Title>
@@ -55,9 +55,9 @@ function Projects() {
       </Card.Text>
       <button variant="primary"><a href="https://foodsearchapp123.herokuapp.com/" target="_blank" > Check it Out</a></button>
      </Card.Body>
-     </Card>
+     </Card> */}
 
-     <Card  className ="card">
+     {/* <Card  className ="card">
      <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/student_directory.png`}  />
      <Card.Body>
       <Card.Title> Student Directory </Card.Title>
@@ -66,7 +66,7 @@ function Projects() {
       </Card.Text>
       <button variant="primary"><a href="https://pensive-lewin-2d4179.netlify.app/" target="_blank" > Check it Out</a></button>
      </Card.Body>
-     </Card>
+     </Card> */}
 
      
 

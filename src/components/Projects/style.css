@@ -1,14 +1,26 @@
 .projects {
- background-color: #ffff;
  flex-grow: 1;
  padding: 15px;
  display: flex;
  flex-direction: column;
+ background-color: #f0f0ef;
 }
 
 .projects h1 {
  padding-left: 48px;
+ font-family: "Satisfy", cursive;
+ font-weight: 800;
+  font-style: normal;
+  color: #000;
 }
+
+@media (min-width: 768px) {
+    .projects h1 {
+        display: none;
+    }
+
+}
+
 
 .projects .project {
  display: flex;

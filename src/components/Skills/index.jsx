@@ -6,7 +6,7 @@ function Skills() {
  return (
   <div className="skills">
    
-   <h1>{`<`} SKILLS {`/>`}</h1>
+   {/* <h1>{`<`} SKILLS {`/>`}</h1> */}
    <div className="content">
     {/* <div>
      <strong>Languages:</strong>
@@ -58,32 +58,34 @@ function Skills() {
     </div> */}
     <div className="skillset">
         <div class="top">
-        <div className="frontend">
-            <div>
-                <img src="https://www.svgrepo.com/show/355081/js.svg" className='icons'/>
+            <div className='headBox'><h1 className='headingLine'>Frontend</h1></div>
+            <div className="frontend">
+                <div>
+                    <img src="https://www.svgrepo.com/show/355081/js.svg" className='icons'/>
+                </div>
+                <div>
+                    <img src="https://www.svgrepo.com/show/355190/reactjs.svg" className='icons'/>
+                </div>
+                <div>
+                    <img src="https://www.svgrepo.com/show/452093/redux.svg" className='icons'/>
+                </div>
+                
             </div>
-            <div>
-                <img src="https://www.svgrepo.com/show/355190/reactjs.svg" className='icons'/>
+            <div className="frontend_2">
+                <div>
+                    <img src="https://www.svgrepo.com/show/349540/typescript.svg" className='icons'/>
+                </div>
+                <div>
+                    <img src="https://www.svgrepo.com/show/452228/html-5.svg" className='icons'/>
+                </div>
+                <div>
+                    <img src="https://www.svgrepo.com/show/374068/scss.svg" className='icons'/>
+                </div>
             </div>
-            <div>
-                <img src="https://www.svgrepo.com/show/452093/redux.svg" className='icons'/>
-            </div>
-            
-        </div>
-        <div className="frontend_2">
-            <div>
-                <img src="https://www.svgrepo.com/show/349540/typescript.svg" className='icons'/>
-            </div>
-            <div>
-                <img src="https://www.svgrepo.com/show/452228/html-5.svg" className='icons'/>
-            </div>
-            <div>
-                <img src="https://www.svgrepo.com/show/374068/scss.svg" className='icons'/>
-            </div>
-        </div>
         </div>
         
         <div className='middle'>
+            <div className='headBox'><h1 className='headingLine'>Backend/Cloud</h1></div>
             <div className='backend'>
                 <div>
                     <img src="https://www.svgrepo.com/show/448266/aws.svg" className='icons'/>
@@ -121,15 +123,16 @@ function Skills() {
         
         
         <div className="otherTech">
-            <div>
+            <div className='headBox'><h1 className='headingLine'>Other Tech</h1></div>
+            <div class="restTech">
+                <div>
+                    <img src="https://www.svgrepo.com/show/374126/testjs.svg" className='icons'/>
+                </div>
+                <div>
                 <img src="https://www.svgrepo.com/show/353782/git-icon.svg" className='icons'/>
             </div>
-            <div>
-                <img src="https://www.svgrepo.com/show/374126/testjs.svg" className='icons'/>
             </div>
-            <div>
-                <img src="https://www.svgrepo.com/show/353782/git-icon.svg" className='icons'/>
-            </div>
+            
         </div>
         
         

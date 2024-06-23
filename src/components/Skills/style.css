@@ -3,10 +3,22 @@
  /* margin-left: 20px; */
  /* padding: 50px; */
  color: #000;
+ padding-top:50px;
 }
 
 .skills h1 {
  margin-bottom: 50px; 
+}
+
+.headingLine {
+  color: #000;
+  font-family: "Satisfy", cursive;
+ font-weight: 800;
+  font-style: normal;
+}
+.headBox {
+  display: flex;
+  justify-content: center;
 }
 
 .content {
@@ -79,6 +91,11 @@
   }
   .skillset .otherTech {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .skillset .restTech {
+    display: flex;
     justify-content: space-around;
   }
 }
@@ -113,7 +130,12 @@
   }
   .skillset .otherTech {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+  }
+  .skillset .restTech {
+    display: flex;
+    justify-content: space-around;
   }
 }
 

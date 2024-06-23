@@ -103,6 +103,7 @@
 @media (min-width: 768px) {
   .content {
     padding: 0 300px;
+    margin-top: 25px;
   }
   .icons {
     width: 100px;

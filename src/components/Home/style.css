@@ -244,8 +244,8 @@
  }
 
  .unbackgrounded .resume {
-  /* margin-top: 250px; */
-  margin-bottom: 350px;
+  margin-top: -30px;
+  margin-bottom: 375px;
  }
 
  h1{

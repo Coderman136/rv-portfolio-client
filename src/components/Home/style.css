@@ -185,7 +185,7 @@
  flex:2;
 }
 .contactLink .icon1, .icon2, .icon3 {
- font-size: 30px;
+ font-size: 50px;
 }
 .contactLink .icon1:hover, .icon2:hover, .icon3:hover {
  transform: scale(1.3);
@@ -201,6 +201,17 @@
  color: #0072b1;
 }
 
+
+@media (min-width: 768px) {
+  .unbackgrounded .resume {
+    margin-left: 330px;
+    margin-top: -30px;
+  }
+  .unbackgrounded .contactLink {
+    align-items: flex-start;
+  }
+
+}
 /* mobile-screen size */ 
 
 @media (max-width: 480px) {
@@ -233,8 +244,8 @@
  }
 
  .unbackgrounded .resume {
-  margin-top: 250px;
-  margin-bottom: 30px;
+  /* margin-top: 250px; */
+  margin-bottom: 350px;
  }
 
  h1{

@@ -37,7 +37,7 @@ function Projects() {
       <Card.Text className="text">
        <FaReact /> Socket.io <FaJs/> React-Router <FaHtml5/>  <FaBootstrap/> Material-UI <FaGit/> MongoDB,  Express.js
       </Card.Text>
-      <button variant="primary"><a href="https://60ef4c8f3850ae18dc2bcced--silly-elion-777517.netlify.app/" target="_blank" > Check it Out</a></button>
+      <button variant="primary"><a href="https://silly-elion-777517.netlify.app/" target="_blank" > Check it Out</a></button>
      </Card.Body>
      </Card>
 

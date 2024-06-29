@@ -11,7 +11,7 @@ function Home() {
     <div className="detailedLink">
     <div className="headline">
      <h1>Hi,</h1>
-    <h1>I am Chris</h1>
+    <h1>I am Raghuveer</h1>
     {/* <h1>Welcome to my world</h1> */}
 
     <div className="anime">
